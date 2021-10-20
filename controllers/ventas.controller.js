@@ -1,3 +1,5 @@
+//controlador ventas
+
 const { response } = require('express');
 
 const Ventas = require('../models/venta.model')

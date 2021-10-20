@@ -1,3 +1,5 @@
+//controlador usuario
+
 const { response } = require('express');
 const bcrypt = require('bcryptjs');
 const Usuario = require("../models/usuario.model");

@@ -1,5 +1,5 @@
 /*
-path: /api/ventas 
+path: /api/ventas/ 
 */
 
 

@@ -45,6 +45,6 @@ AlmacenSchema.method('toJSON', function() {
 })
 
 //Se ha creado el schema, ahora necesitamos implementar el modelo
-//Se exporta el modelo
+//Se exporta el modelo.
 //Por defecto moongose creara en mongodb un documento en plural: usuarios
 module.exports = model('Almacen', AlmacenSchema);

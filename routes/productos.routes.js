@@ -1,6 +1,6 @@
 /*
 
-    Path: /api/productos
+    Path: /api/productos/
 */
 const { Router } = require('express');
 const { check } = require('express-validator');

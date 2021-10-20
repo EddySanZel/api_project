@@ -28,8 +28,8 @@ const ClientesSchema = Schema({
 }, { collection: 'clientes' });
 
 ClientesSchema.method('toJSON', function() {
-    const { __v, ...object } = this.toObject();
-    return object;
-})
-
+        const { __v, ...object } = this.toObject();
+        return object;
+    })
+    //Se ha creado el schema, ahora necesitamos implementar el modelo
 module.exports = model('Cliente', ClientesSchema);

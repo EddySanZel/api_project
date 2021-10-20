@@ -1,4 +1,4 @@
-//busquedaTotal
+//busquedaTotal.
 
 const { response } = require("express")
 

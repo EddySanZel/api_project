@@ -36,6 +36,6 @@ UsuarioSchema.method('toJSON', function() {
 })
 
 
-//Se exporta el modelo
+//Se exporta el modelos.
 //Por defecto moongose creara en mongodb un documento en plural: usuarios
 module.exports = model('Usuario', UsuarioSchema);

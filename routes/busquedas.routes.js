@@ -1,5 +1,5 @@
 /*
-    path: api/todo/busqueda
+    path: api/todo/busqueda/
 */
 
 

@@ -1,6 +1,6 @@
 /*
     ciudad
-    ruta: '/api/bodega'
+    ruta: '/api/bodega/'
 */
 
 const { Router } = require('express');

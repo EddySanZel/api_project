@@ -1,6 +1,6 @@
 /*
     Clientes
-    ruta: '/api/clientes'
+    ruta: '/api/clientes/'
 */
 
 const { Router } = require('express');

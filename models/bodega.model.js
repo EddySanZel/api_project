@@ -16,8 +16,8 @@ const BodegaSchema = Schema({
 
 }, { collection: 'bodegas' });
 BodegaSchema.method('toJSON', function() {
-    const { __v, ...object } = this.toObject();
-    return object;
-})
-
+        const { __v, ...object } = this.toObject();
+        return object;
+    })
+    //Se ha creado el schema, ahora necesitamos implementar el modelo
 module.exports = model('Bodega', BodegaSchema);

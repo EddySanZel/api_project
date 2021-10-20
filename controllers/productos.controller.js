@@ -1,3 +1,5 @@
+//controlador almacen
+
 const { response } = require('express');
 
 const Producto = require('../models/producto.model');

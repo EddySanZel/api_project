@@ -1,3 +1,5 @@
+//controlador bodega
+
 const { response } = require('express');
 
 const Bodega = require('../models/bodega.model');
