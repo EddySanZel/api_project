@@ -22,6 +22,13 @@ app.use('/api/usuarios', require('./routes/usuarios.routes'));
 app.use('/api/login', require('./routes/auth.routes'));
 //app.use('/api/investigadores', require('./routes/investigadores.routes'));
 
+app.use('/api/todo', require('./routes/busquedas.routes'));
+app.use('/api/clientes', require('./routes/clientes.routes'));
+app.use('/api/ventas', require('./routes/ventas.routes'));
+app.use('/api/productos', require('./routes/productos.routes'));
+app.use('/api/almacen', require('./routes/almacen.routes'));
+app.use('/api/bodega', require('./routes/bodega.routes'))
+
 //Codigo para desplegar el servidor
 app.listen(process.env.PORT, () => {
     console.log('Servidor desplegado en el puerto: ' + process.env.PORT)
